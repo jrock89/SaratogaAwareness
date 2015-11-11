@@ -1,0 +1,770 @@
+.article_inner_keep img{
+  width: 270px !important;
+}
+
+.blogRow{
+  /*padding: 20px 0;*/
+}
+#menuMask {
+  display: block !important; }
+
+.head-unit .topBox, #colorHead .topBox {
+  text-align: center;
+  width: 100%;
+  display: inline-block; }
+  .head-unit .topBox h1, #colorHead .topBox h1 {
+    /*padding-top: 80px;*/
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: 10px; }
+    .head-unit .topBox h1 span, #colorHead .topBox h1 span {
+      white-space: pre; }
+    .head-unit .topBox h1 span:before, #colorHead .topBox h1 span:before {
+      content: "\A" !important; }
+  .head-unit .topBox p, #colorHead .topBox p {
+    display: none;
+    width: 100%;
+    position: relative;
+    top: -50px;
+    opacity: 0.6; }
+    .head-unit .topBox p span:before, #colorHead .topBox p span:before {
+      content: "|"; }
+  .head-unit .topBox .headSecP, #colorHead .topBox .headSecP {
+    top: -125px; }
+.head-unit #nav-toggle, #colorHead #nav-toggle {
+  display: block; }
+.head-unit .navi, #colorHead .navi {
+  display: none; }
+
+.slider {
+  top: 7% !important;
+  font-size: 28px !important;
+  width: 50%;
+  left: 25%; }
+
+.twoBox {
+  width: 100%;
+  padding-bottom: 90px; }
+  .twoBox .entry {
+    width: 90%;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 70px; }
+    .twoBox .entry img {
+      float: left !important;
+      margin: 15px; }
+
+.landingBox .landHere .landingUpper {
+  background: url("../images/clifs.jpg") no-repeat right top fixed;
+  -webkit-background-size: 1200px 800px;
+  -moz-background-size: 1200px 800px;
+  -o-background-size: 1200px 800px;
+  background-size: 1200px 800px;
+  top: -100px; }
+  .landingBox .landHere .landingUpper #slider {
+    margin: 0 auto;
+    position: relative;
+    color: #000 !important;
+    font-family: 'Open Sans';
+    font-weight: 600px;
+    padding-top: 2%;
+    border: 1px solid transparent; }
+    .landingBox .landHere .landingUpper #slider ul {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      height: 250px;
+      list-style: none;
+      margin-top: 130px; }
+      .landingBox .landHere .landingUpper #slider ul li {
+        font-size: 24px;
+        position: relative;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 340px;
+        height: 250px;
+        text-align: center; }
+    .landingBox .landHere .landingUpper #slider a.control_prev, .landingBox .landHere .landingUpper #slider a.control_next {
+      position: absolute;
+      top: 40%;
+      z-index: 999;
+      display: block;
+      width: auto;
+      height: auto;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      opacity: 0.8;
+      cursor: pointer; }
+    .landingBox .landHere .landingUpper #slider a.control_next:hover, .landingBox .landHere .landingUpper #slider a.control_prev:hover {
+      opacity: 1; }
+    .landingBox .landHere .landingUpper #slider a.control_next {
+      right: 0; }
+
+.oneBox {
+  width: 100%; }
+  .oneBox .greetingHome h3 {
+    text-align: center;
+    font-size: 72px;
+    color: #f2f2f2;
+    letter-spacing: 5px;
+    padding-top: 5vh; }
+  .oneBox .skillBox {
+    width: 325px;
+    margin: 30px auto;
+    padding-bottom: 50px; }
+    .oneBox .skillBox .skills {
+      margin: 15px;
+      background: #b7f9bb;
+      width: 300px;
+      height: 250px;
+      display: block; }
+  .oneBox .aboutEv {
+    width: 90%;
+    font-size: 14px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    text-align: center; }
+  .oneBox #imageAnimateBox {
+    z-index: 9998;
+    height: 470px;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 0vh;
+    position: relative; }
+    .oneBox #imageAnimateBox .theBubble {
+      height: 100px; }
+      .oneBox #imageAnimateBox .theBubble #smallBub {
+        display: none;
+        position: relative;
+        top: 210px;
+        left: 180px;
+        height: 10px;
+        width: 10px;
+        background: #fce05a;
+        border-radius: 50px;
+        z-index: 9999; }
+      .oneBox #imageAnimateBox .theBubble #mediumBub {
+        z-index: 9999;
+        display: none;
+        position: relative;
+        top: 170px;
+        left: 200px;
+        height: 30px;
+        width: 30px;
+        background: #fce05a;
+        border-radius: 50px; }
+      .oneBox #imageAnimateBox .theBubble #largeBub {
+        display: none;
+        position: relative;
+        top: 65px;
+        left: 220px;
+        height: 70px;
+        width: 70px;
+        background: #fce05a;
+        border-radius: 50px; }
+      .oneBox #imageAnimateBox .theBubble #messageBub {
+        display: none;
+        position: relative;
+        left: -10px;
+        top: -90px;
+        height: 100px;
+        width: 250px;
+        background: #fce05a;
+        border-radius: 50px; }
+        .oneBox #imageAnimateBox .theBubble #messageBub #greeting {
+          position: relative;
+          font-size: 15px;
+          width: 300px;
+          margin: 5px auto;
+          padding-top: 45px;
+          left: 60px;
+          bottom: 25px;
+          color: #55549b; }
+    .oneBox #imageAnimateBox #imageBox {
+      height: 300px;
+      width: 300px;
+      border-radius: 220px;
+      background: #fc665c;
+      margin: 0 auto;
+      margin-top: 45px;
+      z-index: 9998;
+      position: relative;
+      top: 20px; }
+
+.signupBody {
+  height: auto;
+  padding-bottom: 100px; }
+  .signupBody h1 {
+    font-size: 190%;
+    padding: 10%;
+    margin: 15% auto;
+    margin-top: 0;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out; }
+  .signupBody .chooseClass {
+    width: 100%;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out; }
+    .signupBody .chooseClass a {
+      text-decoration: none; }
+    .signupBody .chooseClass #info {
+      margin: 10% auto;
+      display: block;
+      width: 80%;
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out; }
+  .signupBody .popupInfo {
+    display: none;
+    float: left;
+    position: fixed;
+    top: 25%;
+    left: 10%;
+    border-radius: 5px;
+    z-index: 9999;
+    height: 40vh;
+    width: 80%; }
+    .signupBody .popupInfo .row {
+      border-radius: 5px;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      background: transparent;
+      text-align: center; }
+      .signupBody .popupInfo .row h1 {
+        font-family: "Open Sans", sans;
+        font-weight: 400;
+        padding-top: 55px;
+        font-size: 25px;
+        box-shadow: none;
+        margin-top: 0;
+        background: transparent; }
+      .signupBody .popupInfo .row span {
+        position: relative;
+        display: inline-block;
+        margin: 30px 10px; }
+    .signupBody .popupInfo .gate {
+      display: block;
+      width: 215px;
+      padding: 10px 0 10px 15px;
+      font-family: "Open Sans", sans;
+      font-weight: 400;
+      color: #377D6A;
+      background: #efefef;
+      border: 0;
+      border-radius: 3px;
+      outline: 0;
+      text-indent: 65px;
+      transition: all .3s ease-in-out; }
+      .signupBody .popupInfo .gate::-webkit-input-placeholder {
+        color: #efefef;
+        text-indent: 0;
+        font-weight: 300; }
+      .signupBody .popupInfo .gate + label {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 15px;
+        text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+        background: #555790;
+        transition: all .4s ease-in-out;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        transform-origin: left bottom;
+        z-index: 99; }
+        .signupBody .popupInfo .gate + label:before, .signupBody .popupInfo .gate + label:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border-radius: 3px;
+          background: #555790;
+          transform-origin: left bottom;
+          transition: all .4s ease-in-out;
+          pointer-events: none;
+          z-index: -1; }
+        .signupBody .popupInfo .gate + label:before {
+          background: rgba(3, 36, 41, 0.2);
+          z-index: -2;
+          right: 20%; }
+    .signupBody .popupInfo .submit {
+      padding: 10px 10px;
+      width: 150px;
+      height: 45px;
+      color: #fff;
+      font-size: 18px;
+      border: 2px solid #555790;
+      border-radius: 3px;
+      background: #555790;
+      display: inline-block;
+      cursor: pointer; }
+    .signupBody .popupInfo .submit:hover {
+      background: #494a7c; }
+    .signupBody .popupInfo .close:hover {
+      background: #494a7c; }
+    .signupBody .popupInfo .close {
+      cursor: pointer;
+      padding: 10px 10px;
+      width: 150px;
+      height: 45px;
+      color: #fff;
+      font-size: 18px;
+      border: 2px solid #555790;
+      border-radius: 3px;
+      background: #555790;
+      display: inline-block; }
+    .signupBody .popupInfo span:nth-child(2) .gate:focus,
+    .signupBody .popupInfo span:nth-child(2) .gate:active {
+      text-indent: 0; }
+    .signupBody .popupInfo .gate:focus,
+    .signupBody .popupInfo .gate:active {
+      color: #377D6A;
+      text-indent: 0;
+      background: #fff;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px; }
+      .signupBody .popupInfo .gate:focus::-webkit-input-placeholder,
+      .signupBody .popupInfo .gate:active::-webkit-input-placeholder {
+        color: #aaa; }
+      .signupBody .popupInfo .gate:focus + label,
+      .signupBody .popupInfo .gate:active + label {
+        transform: rotate(-126deg);
+        border-radius: 3px; }
+        .signupBody .popupInfo .gate:focus + label:before,
+        .signupBody .popupInfo .gate:active + label:before {
+          transform: rotate(10deg); }
+  .signupBody #mask {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9998;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9; }
+
+.row span {
+  position: relative;
+  display: block;
+  margin: 30px auto;
+  width: 100%; }
+
+.gate {
+  display: block;
+  width: 100%;
+  padding: 15px 0 15px 15px;
+  font-family: "Open Sans", sans;
+  font-weight: 400;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out; }
+  .gate::-webkit-input-placeholder {
+    color: #000 !important;
+    font-weight: 300; }
+  .gate + label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    padding: 11.5px 15px;
+    text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+    background: #1a1b2d;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transform-origin: left bottom;
+    z-index: 99; }
+    .gate + label:before, .gate + label:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 3px;
+      /*background: #1a1b2d;*/
+      transform-origin: left bottom;
+      transition: all .4s ease-in-out;
+      pointer-events: none;
+      z-index: -1; }
+    .gate + label:before {
+      background: rgba(3, 36, 41, 0.2);
+      z-index: -2;
+      right: 20%;  position: relative;}
+
+span:nth-child(2) .gate {
+  text-indent: 60px; }
+
+span:nth-child(3) .gate {
+  text-indent: 60px; }
+
+span:nth-child(4) .gate {
+  text-indent: 63px; }
+
+span:nth-child(2) .gate:focus,
+span:nth-child(2) .gate:active {
+  text-indent: 0; }
+
+span:nth-child(3) .gate:focus,
+span:nth-child(3) .gate:active {
+  text-indent: 0; }
+
+span:nth-child(4) .gate:focus,
+span:nth-child(4) .gate:active {
+  text-indent: 0; }
+
+.submit {
+  margin-top: -50px; }
+
+.chatHeader {
+  text-align: center;
+  margin: 10% 0 5% 0; }
+
+#sayHiBox {
+
+   }
+  #sayHiBox form {
+
+    
+    margin: 10vh auto; }
+    #sayHiBox form .detailInput {
+      display: block;
+      width: 100%;
+      background: transparent;
+      margin: 15px auto;
+      border: none;
+      border-bottom: 3px solid #fff;
+      font-size: 16px;
+      color: #fff;
+      padding: 10px; }
+    #sayHiBox form #message {
+      display: block;
+      width: 100%;
+      height: 25vh;
+      margin: 0 auto;
+      background: transparent;
+      border: none;
+      border: 3px solid #fff;
+      font-size: 16px;
+      color: #fff;
+      padding: 10px;
+      margin-bottom: 25px; }
+    #sayHiBox form #subButton {
+      margin-top: 25px;
+      width: 140px;
+      margin: 0 auto; }
+      #sayHiBox form #subButton .submitButton {
+        margin: 0 auto;
+        background: transparent;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        padding: 5px;
+        border: 3px solid #fff;
+        cursor: pointer; }
+      #sayHiBox form #subButton .submitButton:hover {
+        background: #fff;
+        color: #000; }
+
+.siteInfo .signature {
+  font-size: 65%; }
+.siteInfo .foot {
+  margin: 0 auto;
+  width: 90%; }
+.siteInfo #footPages {
+  display: block; }
+  .siteInfo #footPages a p {
+    margin-top: -20px; }
+.siteInfo #footContact {
+  display: block; }
+.siteInfo #footStudio {
+  display: block; }
+  .port-pic img{
+    max-width: 170px;
+    margin-bottom:0;
+  }
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+
+  .port-pic img{
+    max-width: 150px;
+
+  }
+  .slider {
+   }
+
+  .head-unit .topBox, #colorHead .topBox {
+    width: 100%;
+    /*text-align: center;*/
+    display: inline-block; }
+    .head-unit .topBox h1, #colorHead .topBox h1 {
+      padding-top: 30%;
+      /*text-align: center;*/
+      width: 100%;
+      font-size: 25px;
+      line-height: 1;
+      letter-spacing: 10px; }
+      .head-unit .topBox h1 span, #colorHead .topBox h1 span {
+        white-space: pre; }
+      .head-unit .topBox h1 span:before, #colorHead .topBox h1 span:before {
+        content: "\A" !important; }
+    .head-unit .topBox p, #colorHead .topBox p {
+      display: none;
+      width: 100%;
+      position: relative;
+      top: -50px;
+      opacity: 0.6; }
+      .head-unit .topBox p span:before, #colorHead .topBox p span:before {
+        content: "|"; }
+    .head-unit .topBox .headSecP, #colorHead .topBox .headSecP {
+      top: -125px; }
+  .head-unit #nav-toggle, #colorHead #nav-toggle {
+    display: block; }
+  .head-unit .navi, #colorHead .navi {
+    display: none; }
+
+  .landingBox .landHere .landingUpper {
+    background: url("../images/clifs.jpg") no-repeat center top fixed;
+    -webkit-background-size: 550px auto;
+    -moz-background-size: 550px auto;
+    -o-background-size: 550px auto;
+    background-size: 550px auto;
+    top: -100px;
+    height: 55vh; }
+    .landingBox .landHere .landingUpper #slider {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height: auto;
+      color: #000 !important;
+      font-family: 'Open Sans';
+      font-weight: 600px;
+      /*padding-top: 2%;*/
+      border: 1px solid transparent; }
+      .landingBox .landHere .landingUpper #slider ul {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 250px;
+        list-style: none;
+        margin-top: 80px; }
+        .landingBox .landHere .landingUpper #slider ul li {
+          font-size: 18px;
+          position: relative;
+          display: block;
+          float: left;
+          margin: 0;
+          padding: 0;
+          width: 340px;
+          height: 250px;
+          text-align: center; }
+      .landingBox .landHere .landingUpper #slider a.control_prev, .landingBox .landHere .landingUpper #slider a.control_next {
+        position: absolute;
+        top: 40%;
+        z-index: 999;
+        display: block;
+        width: auto;
+        height: auto;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        opacity: 0.8;
+        cursor: pointer; }
+      .landingBox .landHere .landingUpper #slider a.control_next:hover, .landingBox .landHere .landingUpper #slider a.control_prev:hover {
+        opacity: 1; }
+      .landingBox .landHere .landingUpper #slider a.control_next {
+        right: 0; }
+
+  .signupBody {
+    height: auto;
+    padding-bottom: 100px;
+    background: url("../images/clifs.jpg") no-repeat center top fixed;
+    -webkit-background-size: 550px auto;
+    -moz-background-size: 550px auto;
+    -o-background-size: 550px auto;
+    background-size: 550px auto; }
+    .signupBody h1 {
+      font-size: 190%;
+      padding: 10%;
+      margin: 15% auto;
+      margin-top: 0;
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out; }
+    .signupBody .chooseClass {
+      width: 100%;
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out; }
+      .signupBody .chooseClass a {
+        text-decoration: none; }
+      .signupBody .chooseClass #info {
+        margin: 10% auto;
+        display: block;
+        width: 80%;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out; }
+    .signupBody .popupInfo {
+      display: none;
+      float: left;
+      position: fixed;
+      top: 25%;
+      left: 10%;
+      border-radius: 5px;
+      z-index: 9999;
+      height: 40vh;
+      width: 80%; }
+      .signupBody .popupInfo .row {
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        background: transparent;
+        text-align: center; }
+        .signupBody .popupInfo .row h1 {
+          font-family: "Open Sans", sans;
+          font-weight: 400;
+          padding-top: 55px;
+          font-size: 25px;
+          box-shadow: none;
+          margin-top: 0;
+          background: transparent; }
+        .signupBody .popupInfo .row span {
+          position: relative;
+          display: inline-block;
+          margin: 30px 10px; }
+      .signupBody .popupInfo .gate {
+        display: block;
+        width: 215px;
+        padding: 10px 0 10px 15px;
+        font-family: "Open Sans", sans;
+        font-weight: 400;
+        color: #377D6A;
+        background: #efefef;
+        border: 0;
+        border-radius: 3px;
+        outline: 0;
+        text-indent: 65px;
+        transition: all .3s ease-in-out; }
+        .signupBody .popupInfo .gate::-webkit-input-placeholder {
+          color: #efefef;
+          text-indent: 0;
+          font-weight: 300; }
+        .signupBody .popupInfo .gate + label {
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          width: 85px;
+          left: 0;
+          padding: 10px 15px;
+          text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+          background: #555790;
+          transition: all .4s ease-in-out;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+          transform-origin: left bottom;
+          z-index: 99; }
+          .signupBody .popupInfo .gate + label:before, .signupBody .popupInfo .gate + label:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-radius: 3px;
+            background: #555790;
+            transform-origin: left bottom;
+            transition: all .4s ease-in-out;
+            pointer-events: none;
+            z-index: -1; }
+          .signupBody .popupInfo .gate + label:before {
+            background: rgba(3, 36, 41, 0.2);
+            z-index: -2;
+            right: 20%; }
+      .signupBody .popupInfo .submit {
+        padding: 10px 10px;
+        width: 150px;
+        height: 45px;
+        color: #fff;
+        font-size: 18px;
+        border: 2px solid #555790;
+        border-radius: 3px;
+        background: #555790;
+        display: inline-block;
+        cursor: pointer; }
+      .signupBody .popupInfo .submit:hover {
+        background: #494a7c; }
+      .signupBody .popupInfo .close:hover {
+        background: #494a7c; }
+      .signupBody .popupInfo .close {
+        cursor: pointer;
+        padding: 10px 10px;
+        width: 150px;
+        height: 45px;
+        color: #fff;
+        font-size: 18px;
+        border: 2px solid #555790;
+        border-radius: 3px;
+        background: #555790;
+        display: inline-block; }
+      .signupBody .popupInfo span:nth-child(2) .gate:focus,
+      .signupBody .popupInfo span:nth-child(2) .gate:active {
+        text-indent: 0; }
+      .signupBody .popupInfo .gate:focus,
+      .signupBody .popupInfo .gate:active {
+        color: #377D6A;
+        text-indent: 0;
+        background: #fff;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px; }
+        .signupBody .popupInfo .gate:focus::-webkit-input-placeholder,
+        .signupBody .popupInfo .gate:active::-webkit-input-placeholder {
+          color: #aaa; }
+        .signupBody .popupInfo .gate:focus + label,
+        .signupBody .popupInfo .gate:active + label {
+          transform: rotate(-126deg);
+          border-radius: 3px; }
+          .signupBody .popupInfo .gate:focus + label:before,
+          .signupBody .popupInfo .gate:active + label:before {
+            transform: rotate(10deg); }
+    .signupBody #mask {
+      display: none;
+      background: #000;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 9998;
+      width: 100%;
+      height: 100%;
+      opacity: 0.9; } }

@@ -1,0 +1,118 @@
+*{font-family: Copperplate, 'Copperplate Gothic Light', fantasy !important;}
+
+#home-content{background:#000 !important;padding:0 ;}
+
+.content-area{background:#000 important;}
+
+#main-nav{width:481px !Important;margin:0 auto !important;position:static;display:block;}
+
+#main-menu{width:481px;margin:0 auto;}
+
+#menu-categories{width:481px;margin:0 auto;}
+
+#logo{display:none;}
+
+.top{border:none !important; box-shadow:none !Important;z-index:9999 !important;}
+
+#main-content{margin:0 !important;padding:0 !important}
+#home-content {margin:0 !important;
+max-width: 100% !important;}
+
+#menu-toggle{}
+
+.menu-item{opacity:0.6;}
+.menu-item:hover{
+ opacity:1;
+}
+
+.menu-item a:before{content:"";position:absolute;width:100%;height:1px; bottom:0;left:0;top:15px;background:#fff;visibility:hidden; -webkit-transform: scaleX(0); transform:scaleX(0); -webkit-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;}
+
+a:hover:before{visibility: visible; -webkit-transform: scaleX(1); transform:scaleX(1);}
+
+#main-content{background:#000 !important;}
+.site-header{background:#000}
+
+
+.withUsButton{line-height:2.3 !important;margin-bottom:150px !important;}
+.withUsButton:hover{width:160px !Important;transition: all 0.3s ease-in-out 0s;}
+
+#contact{}
+
+#myInputName{color:#fff;width:364px;background:transparent;border:2px solid #fff;}
+
+#myInputEmail{color:#fff;width:364px;background:transparent !important;border:2px solid #fff;}
+
+#myTextArea{color:#fff;width:364px;background:transparent;border:2px solid #fff;}
+
+#subMyMail{color:#fff !important;border:2px solid #fff;}
+#subMyMail:hover{background:#transparent;opacity:1 !important;color:#000 !important;}
+
+#mailToSub{opacity:0.5;}
+#mailToSub:hover{opacity:1;color:#fff !important;}
+
+
+
+
+#video-background{height:100vh !important;}
+
+
+
+#myFooter{margin:0 !important;position:static;width:100%;color:#fff !important;background:000 !important;text-align:center;padding-top:45px 0;margin-bottom:-130px !important;}
+
+#myFooter h4{color:#fff;font-size:80%;}
+
+#myFooter h4 a{opacity:0.5;}
+
+#myFooter h4 a:hover{opacity:1; color:#fff !important;}
+
+.socBox{display:inline-block;}
+
+#mySocial{background:transparent;width:214px;margin:0 auto;margin-bottom:45px;}
+
+.socialLinks{display:inline-block !important;position:relative;both:clear;}
+
+.socialLinks:nth-child(1){}
+
+#mySocial .socialLinks img{border-radius:2px !important;margin-left:0px !important;opacity:0.5;width:25px;height:25px;}
+
+.socialLinks img:hover{opacity:1 !important;}
+
+.bottomChain img{position:absolute;border:2px solid red;height:auto !important;max-width:100% !important;opacity:0.6 !important;margin-bottom:-100px !important;}
+.bottomChain img{}
+
+#footer{display:none;}
+
+#testimonials img{border-radius:0px !imporant;-webkit-border-radius:0px;}
+
+#myFooter{background:000 !important;}
+
+element{}
+
+
+@media (max-width: 700px) {
+
+
+#logo{display:inline-block !important;}
+.content, p, img{margin-top:10px !important;}
+
+/*#mm-menu-categories{position:fixed !Important;}*/
+/*#menu-toggle:hover{color:#fff !Important;}*/
+ #main-nav{display:none  !important}
+
+.menu-item a:before{display:none !important;}
+
+#about p{width:90% !important;}
+
+#mailToBox {width:100% !important;}
+
+#mailToBox a{font-size:100% !important;}
+
+#myInputName{width:100%;}
+#myInputEmail{width:100%;}
+#myTextArea{width:100%;}
+
+/*div.wpcf7 img.ajax-loader{display:none !important;}
+*/
+
+
+}

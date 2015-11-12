@@ -4,6 +4,9 @@
 	<title>Saratoga Awareness</title>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta property="og:image" content="images/saww.png" />
+	<meta property="og:title" content="Saratoga Awareness" />
+	<meta property="og:description" content="The Feldenkrais Method with Evan VanDyk" />
 	<link href="images/sa.png" rel="shortcut icon">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap.css" rel="stylesheet">

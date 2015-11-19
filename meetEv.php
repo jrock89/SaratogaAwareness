@@ -28,7 +28,7 @@
 									<h3 style="margin:0 0 30px 0;opacity:0.7;"><i>A.A.S., LMT, Guild-Certified Feldenkrais Practioner</i></h3>
 								</div><img alt="" class="" src="images/evan.jpg">
 								<div class="ev_about">
-									Evan VanDyk, A.A.S, LMT, is a guild-certified Feldenkrais Practitioner and Awareness Through Movement Teacher. She studied the Feldenkrais Method in a 4-year Practitioner Training Program with David Zemach-Bersin at the Feldenkrais Institute of NY in Manhatten from 2011-2015.<br>
+									Evan VanDyk, A.A.S, LMT, is a guild-certified Feldenkrais Practitioner and Awareness Through Movement Teacher. She studied the Feldenkrais Method in a 4-year Practitioner Training Program with David Zemach-Bersin at the Feldenkrais Institute of NY in Manhattan from 2011-2015.<br>
 									<br>
 									After graduating Massage school at Morrisville State College in 2010, she found her place among her peers at Bodywork Professionals, Licensed Massage Therapists in Latham and Saratoga Springs NY.<br>
 									<br>
